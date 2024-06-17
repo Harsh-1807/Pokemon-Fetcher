@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #FF6B6B 0%, #FFD93D 100%);
+   /* background: linear-gradient(135deg, #FF6B6B 0%, #FFD93D 100%);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,37 +16,19 @@ body {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+     0% { background-color: #FFA69E; }
+    10% { background-color: #FFC0A3; }
+    20% { background-color: #FFD9A7; }
+    30% { background-color: #FFF4A6; }
+    40% { background-color: #E9F1A7; }
+    50% { background-color: #B7E3A4; }
+    60% { background-color: #7FD3A4; }
+    70% { background-color: #52B69A; }
+    80% { background-color: #61A5C2; }
+    90% { background-color: #8893CE; }
+    100% { background-color: #A08CBB; }
 }
 
-@keyframes colorChange {
-    0% {
-        background-color: #FF6B6B;
-    }
-    25% {
-        background-color: #FFD93D;
-    }
-    50% {
-        background-color: #6BFF6B;
-    }
-    75% {
-        background-color: #6B6BFF;
-    }
-    100% {
-        background-color: #FF6B6B;
-    }
-    75% {
-        background-color: #d6e0b8;
-    }
-    50% {
-        background-color: #b9d563;
-    }
-    25% {
-        background-color: #b3bae6;
-    }
-    0% {
-        background-color: #2561e2;
-    }
-}
 
 .container {
     text-align: center;
